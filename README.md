@@ -6,7 +6,7 @@ Please use Yarn; scripts can be modified to use npm though
 
 ## How to use:
 1. Clone or download the repo
-2. From the root of the directory run 'yarn install'
+2. From the root of the directory run 'yarn install' in your terminal
 3. For development, run 'yarn electron-dev'
 4. For building, run 'yarn electron-pack' (don't forget to change the script flag to your OS)
 
