@@ -4,25 +4,21 @@ This is a starter template using the latest create-react-app and electron packag
 
 Please use Yarn; scripts can be modified to use npm though
 
-**How to use:**
+## How to use:
 1. Clone or download the repo
 2. From the root of the directory run 'yarn install'
 3. For development, run 'yarn electron-dev'
 4. For building, run 'yarn electron-pack' (don't forget to change the script flag to your OS)
 
-**Built in scripts:**
+## Built in scripts:**
 
-Used for real-time development: runs electron with nodemon and reacts development script
-- "electron-dev": "concurrently \"cross-env BROWSER=none yarn start\" \"wait-on http://localhost:3000 && nodemon --exec electron .\""
+**"electron-dev"**, used for real-time development: runs electron with nodemon and reacts development script
 
-Will auto run after any package install: converts package to support electrons nodejs version
-- "postinstall": "electron-builder install-app-deps"
+**"postinstall"**, will auto run after any package install: converts package to support electrons nodejs version
 
-Will auto run before electron build: builds react package
-- "preelectron-pack": "yarn build"
+**"preelectron-pack"**,  will auto run before electron build: builds react package
 
-Builds electron: use -w for windows, -m for mac, -l for linux; read offical electron-builder docs for more options
-- "electron-pack": "electron-builder -w "
+**"electron-pack"**, builds electron: use -w for windows, -m for mac, -l for linux; read offical electron-builder docs for more options
 
 **Dependencies:**
 - "electron-is-dev": "^1.1.0",
