@@ -11,7 +11,7 @@
   "main": "main.js",
   "homepage": ".",
   "author": {
-    "name": "Eric Christensen"
+    "name": ""
   },
   "build": {
     "extends": null,
