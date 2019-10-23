@@ -10,7 +10,7 @@ Please use Yarn; scripts can be modified to use npm though
 3. For development, run 'yarn electron-dev'
 4. For building, run 'yarn electron-pack' (don't forget to change the script flag to your OS)
 
-## Built in scripts:**
+## Built in scripts:
 
 **"electron-dev"**, used for real-time development: runs electron with nodemon and reacts development script
 
