@@ -6,8 +6,8 @@ This is a starter template using the latest create-react-app and electron packag
 
 1. Clone or download the repo
 2. From the root of the directory run 'npm install' in your terminal
-3. For development, run 'npm run electron-dev'
-4. For building, run 'npm run electron-pack' (don't forget to change the script flag to your OS)
+3. For development, run `npm run electron-dev`
+4. For building, run `npm run electron-pack` (don't forget to change the script flag to your OS)
 
 ## Built in scripts:
 
